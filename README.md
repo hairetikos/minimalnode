@@ -13,7 +13,7 @@ If you are exceeding 5:00 after this minimal setup, please repeat some of the st
 
 Also, after installing packages and compiling software you may consider clearing the cache as follows:
 
-1.  Stop `zend` and `secnodetracker` (as regular user)
+1.  Terminate `zend` and `secnodetracker` (as regular user)
 2.  `swapoff -a` (as root)
 3.  `sync && echo 3 > /proc/sys/vm/drop_caches` (as root)
 4.  `swapon -a` (as root)
