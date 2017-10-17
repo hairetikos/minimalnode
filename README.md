@@ -5,6 +5,20 @@ Minimal Vultr VPS Setup by Hairetikos.
 
 By the end of this guide you should have an ultra-lightweight & fast Debian system consuming as little as 23MB RAM at boot time and just 3-5 processes.  It is an optimal foundation to build your system up from.
 
+## Please Note ...
+
+From this setup, I am getting steady secnodetracker challenge times on average of 3:31.
+
+If you are exceeding 5:00 after this minimal setup, please repeat some of the steps outlined below such as reinstalling `sysvinit-core` and removing `systemd*` if some future packages may have installed systemd along with them (some packages will install it even though it is not an explicit dependancy)
+
+Also, after installing packages and compiling software you may consider clearing the cache as follows:
+
+1.  Stop `zend` and `secnodetracker` (as regular user)
+2.  `swapoff -a` (as root)
+3.  `sync && echo 3 > /proc/sys/vm/drop_caches` (as root)
+4.  `swapon -a` (as root)
+5.  Restart `zend` and `secnodetracker` (as regular user)
+
 ## Installation
 
 First, right click and copy the link to the Debian Net Install ISO.  The ISO can be found at the bottom of the Debian netinst download page https://www.debian.org/CD/netinst/
