@@ -77,7 +77,7 @@ Make the filesystem `EXT2` or `EXT3`
 (it also implies `nodiratime`, so we don't need to select both)**
 
 Set `Reserved blocks` to 0% or 1% so we can use the whole disk, as it is not a large disk.
-*Note:  If the disk fills up, a 0% option may cause inoperability, be sure to monitor and administer the server*
+*Note:  If the disk fills up, a 0% option may cause inoperability, be sure to monitor and administer the server -- some log files may grow large for example*
 
 <img src="./img/12.png">
 <img src="./img/13noatime.png">
