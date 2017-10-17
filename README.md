@@ -1,7 +1,11 @@
 # Minimal VPS Node
-Minimal Vultr VPS Setup by Hairetikos.
+Minimal Vultr VPS Setup by Hairetikos.  A foundation for optimal Zen Secure Node and challenge computation.
 
-*This should also work for any other VPS provider who allows one to upload a custom ISO and install it via VNC console.*
+https://github.com/ZencashOfficial/zen
+
+https://github.com/adumaine/secnodetracker
+
+*This should also work for any other VPS provider who allows one to upload a custom ISO and install it via VNC console.  It is also useful in general as a foundation for other server applications*
 
 <img src="./img/2823mbram.png">
 
@@ -9,7 +13,7 @@ By the end of this guide you should have an ultra-lightweight & fast Debian syst
 
 ## Please Note ...
 
-From this setup, I am getting steady secnodetracker challenge times on average of 3:31.
+From this setup, I am getting steady secnodetracker challenge times on average of 3:31. 
 
 If you are exceeding 5:00 after this minimal setup, please repeat some of the steps outlined below such as reinstalling `sysvinit-core` and removing `systemd*` if some future packages may have installed systemd along with them (some packages will install it even though it is not an explicit dependancy)
 
