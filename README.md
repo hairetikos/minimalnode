@@ -15,7 +15,7 @@ By the end of this guide you should have an ultra-lightweight & fast Debian syst
 
 From this setup, I am getting steady secnodetracker challenge times on average of 3:31. 
 
-If you are exceeding 5:00 after this minimal setup, please repeat some of the steps outlined below such as reinstalling `sysvinit-core` and removing `systemd*` if some future packages may have installed systemd along with them (some packages will install it even though it is not an explicit dependancy)
+If you are exceeding 5:00 after this minimal setup, please repeat some of the steps at the bottom of this page such as reinstalling `sysvinit-core` and removing `systemd*` (some future packages may have installed systemd along with them, some packages will install it even though it is not an explicit dependancy)
 
 Also, after installing packages and compiling software you may consider clearing the cache as follows:
 
