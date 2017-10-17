@@ -147,7 +147,7 @@ After the Installation finishes, navigate to your Vultr server Settings and **Re
 
 <img src="./img/23removeiso.png">
 
-Navigate to IPv4 Settings in Vultr and click `network configuration`
+Navigate to IPv4 Settings in Vultr and click `networking configuration`
 
 <img src="./img/25net.png">
 
