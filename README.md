@@ -69,9 +69,9 @@ Now select the remaining FREE SPACE and press enter
 
 <img src="./img/11.png">
 
-Make the filesystem `EXT2` or `EXT3`
+Make the filesystem `EXT2`, `EXT3` or `EXT4`
 
-*as the disk is small, for faster disk performance in many cases choose `EXT2` (no journal), for better recovery after crashes choose `EXT3` (journal)*
+*as the disk is small, for faster disk performance in many cases choose `EXT2` (no journal), for better recovery after crashes choose `EXT3` or `EXT4` (journal)*
 
 **Be sure to choose Mount option `noatime` to improve disk performance.
 (it also implies `nodiratime`, so we don't need to select both)**
