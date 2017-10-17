@@ -19,6 +19,8 @@ Also, after installing packages and compiling software you may consider clearing
 4.  `swapon -a` (as root)
 5.  Restart `zend` and `secnodetracker` (as regular user)
 
+*If you are still exceeding 5:00 challenge times after this guide, it may be congestion in your particular Vultr datacenter -- consider choosing a different VPS location and testing the difference.*
+
 ## Installation
 
 First, right click and copy the link to the Debian Net Install ISO.  The ISO can be found at the bottom of the Debian netinst download page https://www.debian.org/CD/netinst/
