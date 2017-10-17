@@ -18,6 +18,7 @@ Create a new server at Vultr.  When prompted for "Server Type", choose "Upload I
 Paste the Debian Net Install ISO link
 
 <img src="./img/upl.png">
+
 *wait a moment for it to upload.  You may need to refresh the page to check.*
 
 Make sure the ISO is selected when creating the server
