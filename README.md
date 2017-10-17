@@ -1,6 +1,8 @@
 # Minimal VPS Node
 Minimal Vultr VPS Setup by Hairetikos.
 
+*This should also work for any other VPS provider who allows one to upload a custom ISO and install it via VNC console.*
+
 <img src="./img/2823mbram.png">
 
 By the end of this guide you should have an ultra-lightweight & fast Debian system consuming as little as 23MB RAM at boot time and just 3-5 processes.  It is an optimal foundation to build your system up from.
