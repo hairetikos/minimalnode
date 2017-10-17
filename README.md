@@ -106,8 +106,8 @@ Don't participate in the package use survey
 
 <img src="./img/19popcon.png">
 
-Use spacebar to uncheck ALL options except `ssh server` (even uncheck `standard system utilities`)<br>
-All we need is `ssh server` to login to the VPS
+Use spacebar to uncheck ALL options except `SSH server` (even uncheck `standard system utilities`)<br>
+All we need is `SSH server` to login to the VPS
 
 <img src="./img/20ssh.png">
 
