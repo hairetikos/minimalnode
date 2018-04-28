@@ -1,3 +1,7 @@
+## Official Guide Moved Here:
+
+https://steemit.com/zencash/@hairetikos/minimal-vultr-and-other-1gb-vps-optimal-zen-secure-node-guide
+
 # Minimal VPS Node
 Minimal Vultr VPS Setup by Hairetikos.  A foundation for optimal Zen Secure Node and challenge computation.
 
