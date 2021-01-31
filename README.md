@@ -204,7 +204,11 @@ Invoke `htop` to see current RAM and process usage.
 If this guide has helped you, consider a donation:
 
 **ZEN:** `znSTMxvU3AizLV9cAm4iNPT5uLoJ2wbfHy9`
+
 **Private ZEN:** `zcK5A39UwgaufiyUVtVqTXMFQXxxCUCvicvuMxcCE9QrgBMAGW5yCQW9a5zRqwZbYBTCMhTZgyhKH3TMMHq4xwLADQvqrM3`
 
 **BTC (bech32):** `bc1qtjefmvk3xd784wf9eftahyk7rxwsypxtsp96s5`
+
 **BTC (legacy):** `3CLALX53juPhUN2LxJ8yAY8c3GRqhhYtAN`
+
+**BTC (liquid):** `VJL8f42HwKheHvc3xk9fxiqcar1GWRpWxaHVrtEpQSv9krdRpjjMReTiSEuDZA9C9LjTSvE1UgRGG7by`
